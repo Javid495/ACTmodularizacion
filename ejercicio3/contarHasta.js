@@ -7,10 +7,6 @@ function contarHasta (entero){
 
 contarHasta (5);
 
-const contarHasta = (numero) => {
-    for (let i = 1; i <= numero; i++) {
-        console.log(i);
-    }
-};
+export {contarHasta};
 
-contarHasta(5);
+

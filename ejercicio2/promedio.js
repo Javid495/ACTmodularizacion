@@ -11,3 +11,5 @@ function calcularPromedio (nota1, nota2, nota3){
 
 console.log(calcularPromedio(5.0, 4.0, 3.0));
 console.log(calcularPromedio(2.5, 3.5, 2.0));
+
+export {calcularPromedio};

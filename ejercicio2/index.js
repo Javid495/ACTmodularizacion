@@ -1,0 +1,1 @@
+export  {calcularPromedio} from "./promedio.js"
