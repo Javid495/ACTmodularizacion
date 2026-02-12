@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jogard24/ACTmodularizacion/issues"
   },
-  "homepage": "https://github.com/jogard24/ACTmodularizacion#readme"
+  "homepage": "https://github.com/jogard24/ACTmodularizacion#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }

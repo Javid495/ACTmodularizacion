@@ -16,12 +16,12 @@
 // se recomiendan aproximadamente 6 a 8 gramos de café 
 // por cada 120-150 ml de agua caliente
 
-function formulaCafeportaza (agua, cafe){
-    return "agregar "+ agua + "ml de agua y "+ cafe + " gramos de cafe";
-}
+// function formulaCafeportaza (agua, cafe){
+//     return "agregar "+ agua + "ml de agua y "+ cafe + " gramos de cafe";
+// }
 
-let taza = formulaCafeportaza (6, 120);
-console.log(taza);
+// let taza = formulaCafeportaza (6, 120);
+// console.log(taza);
 
 
 // const prepararCafe = (agua , cafe) => `Agrega ${agua} ml de agua y ${cafe} gramos de café.`;
@@ -37,3 +37,9 @@ console.log(taza);
 
 // console.log (IngredienteExtra(" leche"));
 // console.log (IngredienteExtra(" azucar"));
+
+function saludoPersonalizado (nombre){
+    return"bienvenido " + nombre + "!" ;
+}
+
+console.log (saludoPersonalizado("jose"));
